@@ -1,1 +1,3 @@
-// hbhjbjhb
+void main(){
+  print('object');
+}
