@@ -1,3 +1,6 @@
-void main(){
-  print('object');
+void main()
+{
+  String name="Rudra IT Hub";
+  print(name);
+
 }
