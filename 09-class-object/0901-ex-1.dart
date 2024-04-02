@@ -1,6 +1,6 @@
 void main()
 {
-  var x = m() ;
+  var x = details() ;
   print(x.rollno);
   print(x.name);
   print(x.dob);
@@ -8,7 +8,7 @@ void main()
   print(x.mob);
 }
 
-class m
+class details
 {
   int rollno=185;
   String  name='pratik',dob='15-09-2004',city='bhavnagar';
