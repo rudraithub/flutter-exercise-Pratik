@@ -11,7 +11,7 @@ class A
 {
   String name='pratik';
   String get function => name;
-  /*String get xyz
+  /*String get function
   {
     return name;
   }*/

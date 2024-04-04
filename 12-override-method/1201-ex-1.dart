@@ -16,6 +16,7 @@ class A
 
 class B extends A
 {
+
   @override
   void display()
   {
