@@ -51,7 +51,7 @@ void main() {
                 children: <InlineSpan>
                 [
                  TextSpan(
-                  text: "❤️Email:",
+                  text: "❤️ Email:",
                   style: TextStyle(
                     fontSize: 20,
                     color: const Color.fromARGB(255, 61, 122, 12),
