@@ -7,7 +7,7 @@ void main() {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.brown,
           title: Text("wishes",
           style: TextStyle(
             color: Colors.black87,
