@@ -39,12 +39,24 @@ class _demoState extends State<demo> {
             // mainAxisAlignment: MainAxisAlignment.center,
             children: [
                SizedBox(height: 20,),
-
+              Text.rich(TextSpan(
+                text: "praitk",
+                children: <InlineSpan>[
+                  TextSpan(
+                    text: "dhrumil",
+                  )
+                ]
+              ),
+              ),
               CircleAvatar(
                 backgroundImage: NetworkImage("https://tse3.mm.bing.net/th?id=OIP.TYJqmFIrO3WDbgmf8QsAowAAAA&pid=Api&P=0&h=180"),
                 radius: 20,
               ),
               SizedBox(height: 20,),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(50),
+                child: Image.network("https://tse3.mm.bing.net/th?id=OIP.TYJqmFIrO3WDbgmf8QsAowAAAA&pid=Api&P=0&h=180",fit: BoxFit.cover,),
+              ),
               TextField(                
                 keyboardType: TextInputType.name,
                 decoration: InputDecoration(

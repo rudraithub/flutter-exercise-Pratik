@@ -8,9 +8,9 @@ class sec_page extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text("Click Button To Navigate in First-Page",style: TextStyle(color: Colors.black,fontSize: 30,decoration: TextDecoration.none),),
+        Text("Click Button To Navigate in First-Page",style: TextStyle(color: const Color.fromARGB(255, 211, 7, 7),fontSize: 30,decoration: TextDecoration.none),),
         SizedBox(height: 10,),
-        Icon(Icons.arrow_circle_down_rounded,size: 60,),
+        Icon(Icons.arrow_circle_down_rounded,size: 60,color: Colors.amberAccent,),
         SizedBox(height: 10,),
         TextButton(onPressed: (){
           Navigator.pop(context);
