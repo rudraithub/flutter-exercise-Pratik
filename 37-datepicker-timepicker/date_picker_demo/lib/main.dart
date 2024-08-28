@@ -43,9 +43,9 @@ class _demoState extends State<demo> {
                   dt = datet;
                 });
               }
-            }, child: Text("select your death day💀")),
-            if (dt != null)
-              Text("${dt!.day}/${dt!.month}/${dt!.year}"),
+            }, child: dt == null ? Text("select your death day💀" ):Text( "${dt!.day}/${dt!.month}/${dt!.year}")),
+            // if (dt != null)
+            //   Text("${dt!.day}/${dt!.month}/${dt!.year}"),
           ],
         ),
       ),
